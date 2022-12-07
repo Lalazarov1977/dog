@@ -1,0 +1,58 @@
+body
+    background: #1a5822     
+.wrapper
+    // display: none
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    align-content: flex-start
+    height: 720px
+.wrapper > img
+    flex-wrap: wrap
+    height: 40%
+    object-fit: cover
+    object-position: center
+    align-items: center
+    border-radius: 36px
+    box-shadow: 40px 40px 30px 10px rgba(33, 48, 33, 0.9) 
+    margin-bottom: 100px
+    transition: .4s all
+    margin: 10px
+    padding-top: 20px 
+.wrapper > img:hover 
+    transform: scale(1.1)
+.title
+    text-align: center
+    color: #ffebad
+    font-size: 70px
+    margin: 24px
+.links
+    display: flex
+    flex-wrap: wrap
+    max-width: 100%   
+    justify-content: center  
+.before
+    font-size: 36px
+    color: #dce8e89e
+    text-decoration: none
+    padding-left: 50px
+    margin: 0 50px
+    background: url(../images/src/arrow-left-ico.svg) no-repeat 10% center
+    webkit-transition: .2s all
+    transition: .2s all
+.before:hover, .before:focus, .before:active
+    background: url(../images/src/arrow-left-ico.svg) no-repeat left center
+    opacity: .50
+.next
+    font-size: 36px
+    color: #dce8e89e
+    text-decoration: none
+    padding-right: 60px
+    margin: 0 50px
+    background: url(../images/src/arrow-right-ico.svg) no-repeat 90% center
+    webkit-transition: .2s all
+    transition: .2s all
+.next:hover, .next:focus, .next:active
+    background: url(../images/src/arrow-right-ico.svg) no-repeat right center
+    opacity: .50
+
